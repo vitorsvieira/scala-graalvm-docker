@@ -91,7 +91,7 @@ Note that we presume that the current Scala project is using [sbt-assembly](http
 The folder `spark-job-graalvm-example` contains an example where it uses the docker-compose and shell above.
 
 
-[![asciicast](https://asciinema.org/a/181283.png)](https://asciinema.org/a/181283)
+[![asciicast](https://asciinema.org/a/181286.png)](https://asciinema.org/a/181286)
 
 
 ## References and Inspiration
