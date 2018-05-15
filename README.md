@@ -18,7 +18,7 @@ SBT: From 0.13.15 until 1.1.5
 
 GraalVM: 1.0.0-RC1
 
-List of tags: [scalaops/scala-graalvm:{tags}](https://hub.docker.com/r/scalaops/scala-graalvm/tags/)
+List of tags: [cloudscala/scala-graalvm:{tags}](https://hub.docker.com/r/cloudscala/scala-graalvm/tags/)
 
 
 ## How to use
@@ -32,7 +32,7 @@ version: '3'
 
 services:
   app:
-    image: scalaops/scala-graalvm:scala-2.12.6-sbt-1.1.5-graalvm-1.0.0-rc1
+    image: cloudscala/scala-graalvm:scala-2.12.6-sbt-1.1.5-graalvm-1.0.0-rc1
     command: ./generate-native-image-example.sh
     volumes:
       - .:/app

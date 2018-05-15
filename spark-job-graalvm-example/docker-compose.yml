@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: scalaops/scala-graalvm:scala-2.11.8-sbt-1.1.5-graalvm-1.0.0-rc1
+    image: cloudscala/scala-graalvm:scala-2.11.8-sbt-1.1.5-graalvm-1.0.0-rc1
     command: ./generate-native-image.sh
     volumes:
       - .:/app
